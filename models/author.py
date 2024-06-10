@@ -19,4 +19,3 @@ class Author:
         articles = [Article(article['id'], article['title'], article['content'], article['author_id'], article['magazine_id'])
                     for article in articles_data]
         return articles
-    
