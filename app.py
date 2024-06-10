@@ -9,13 +9,13 @@ def main():
     create_tables()
 
     while True:
-        print("Choose an option:")
+        print("Select an option:")
         print("1. Add an author, magazine, and article")
         print("2. Delete a magazine")
         print("3. View all data")
         print("4. Exit")
 
-        choice = input("Enter choice: ")
+        choice = input("Enter selected option: ")
 
         if choice == "1":
             # Collect user input
